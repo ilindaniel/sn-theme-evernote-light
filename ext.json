@@ -1,0 +1,20 @@
+  {
+    "identifier": "io.github.ilindaniel.sn-theme-evernote-light",
+    "name": "Evernote-style Light Theme",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "description": "Evernote inspired theme for Standard Notes",
+    "version": "v1.2",
+    "url": "https://danielilin.de/github/sn-theme-evernote-light/dist/dist.css",
+    "download_url": "https://github.com/ilindaniel/sn-theme-evernote-light/archive/master.zip",
+    "marketing_url": "https://github.com/ilindaniel/sn-theme-evernote-light",
+    "latest_url": "https://danielilin.de/github/sn-theme-evernote-light/ext.json",
+    "thumbnail_url": "https://raw.githubusercontent.com/ilindaniel/sn-theme-evernote-light/master/preview.png",
+    "dock_icon": {
+      "type": "circle",
+      "background_color": "#00a72c",
+      "foreground_color": "#076678",
+      "border_color": "#00a72c"
+    },
+    "statusBar": "dark-content"
+  }

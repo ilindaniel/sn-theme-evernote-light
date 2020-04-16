@@ -1,0 +1,271 @@
+:root {
+  --background-1: #ffffff;
+  --background-2: #f8f8f8;
+  --foreground-1: #333333;
+  --foreground-2: #838383;
+  --foreground-3: #333333;
+  --highlight-color: #00a72c;
+  --neutral-color: #a6a6a6;
+  --danger-color: #cc241d;
+  --success-color: #3294de;
+  --warning-color: #fead00;
+  --border-color: #cccccc;
+  /* Footer */
+  --footer-bar-border-top-color: 0;
+  --sn-stylekit-info-color: var(--highlight-color);
+  --sn-stylekit-info-contrast-color: var(--foreground-1);
+  --sn-stylekit-neutral-color: var(--neutral-color);
+  --sn-stylekit-neutral-contrast-color: var(--background-2);
+  --sn-stylekit-success-color: var(--success-color);
+  --sn-stylekit-success-contrast-color: var(--background-2);
+  --sn-stylekit-warning-color: var(--warning-color);
+  --sn-stylekit-warning-contrast-color: var(--background-2);
+  --sn-stylekit-danger-color: var(--danger-color);
+  --sn-stylekit-danger-contrast-color: var(--background-2);
+  --sn-stylekit-shadow-color: var(--background-2);
+  --sn-stylekit-background-color: var(--background-1);
+  /* Do not change */
+  --sn-stylekit-foreground-color: #000000;
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-paragraph-text-color: var(--foreground-1);
+  --sn-stylekit-contrast-background-color: var(--background-2);
+  --sn-stylekit-contrast-foreground-color: var(--foreground-1);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--background-2);
+  /* Do not change */
+  --sn-stylekit-secondary-foreground-color: #616161;
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: var(--background-1);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--background-1);
+  --sn-stylekit-editor-foreground-color: var(--foreground-1);
+  --sn-stylekit-input-placeholder-color: var(--foreground-2);
+  --sn-stylekit-input-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-desktop-titlebar-bg-color: var(--background-1);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--foreground-1);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+}
+:root .sk-app-bar {
+  color: #4d4d4d !important;
+}
+:root .title {
+  color: var(--foreground-1);
+}
+:root .sk-menu-panel {
+  color: var(--foreground-1) !important;
+}
+:root #notes-scrollable {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note,
+:root #notes-column .tag {
+  opacity: 1 !important;
+  background-color: var(--background-2) !important;
+  color: var(--foreground-3) !important;
+}
+:root #notes-column .note .name {
+  color: var(--foreground-1);
+}
+:root #notes-column .note .plain-preview {
+  color: #4d4d4d !important;
+}
+:root #notes-column .note progress {
+  border: 1px solid var(--border-color) !important;
+}
+:root #notes-column .note .note-flags .flag.info,
+:root .notes .note .note-flags .flag.info {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-info-color) !important;
+}
+:root #notes-column .note .note-flags .flag.success,
+:root .notes .note .note-flags .flag.success {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-success-color);
+}
+:root #notes-column .note .note-flags .flag.warning,
+:root .notes .note .note-flags .flag.warning {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-warning-color);
+}
+:root #notes-column .note .note-flags .flag.neutral,
+:root .notes .note .note-flags .flag.neutral {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-neutral-color);
+}
+:root #notes-column .note .note-flags .flag.danger,
+:root .notes .note .note-flags .flag.danger {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-danger-color);
+}
+:root #notes-column .note.selected .note-flags .flag.info,
+:root .notes .note.selected .note-flags .flag.info {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.success,
+:root .notes .note.selected .note-flags .flag.success {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.warning,
+:root .notes .note.selected .note-flags .flag.warning {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.neutral,
+:root .notes .note.selected .note-flags .flag.neutral {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.danger,
+:root .notes .note.selected .note-flags .flag.danger {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected {
+  background: none !important;
+  background-color: var(--highlight-color) !important;
+}
+:root #notes-column .note .date.faded,
+:root #notes-column .note .tags-string > .faded,
+:root #notes-column .note .note-flag,
+:root .editor-tags input {
+  opacity: 1 !important;
+  color: var(--neutral-color) !important;
+}
+:root .cm-s-default .cm-variable-3,
+:root .cm-s-default .cm-type {
+  color: var(--success-color) !important;
+}
+:root #notes-column .note progress, :root .notes .note progress {
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
+}
+:root #notes-column .note progress::-webkit-progress-bar, :root .notes .note progress::-webkit-progress-bar {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note progress::-webkit-progress-value, :root .notes .note progress::-webkit-progress-value {
+  background-color: var(--foreground-2) !important;
+}
+:root #notes-column .note.selected progress, :root .notes .note.selected progress {
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
+}
+:root #notes-column .note.selected progress::-webkit-progress-bar, :root .notes .note.selected progress::-webkit-progress-bar {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected progress::-webkit-progress-value, :root .notes .note.selected progress::-webkit-progress-value {
+  background-color: var(--foreground-2) !important;
+}
+:root ::selection {
+  background: #3390ff !important;
+  color: #ffffff !important;
+}
+:root .cm-s-default .cm-variable-3 {
+  color: #7e9a8f !important;
+}
+:root .tags, .tags #tags-content {
+	background-color: #1a1a1a;
+}
+:root .tags .tag>.tag-info>.count {
+  color: var(--border-color);
+}
+:root .tags .no-tags-placeholder {
+  color: var(--border-color);
+}
+:root #tags-content > div.scrollable > div > div > div > input {
+  color: #cccccc;
+}
+/*
+:root #tags-content > div.scrollable > div > div.tag.ng-scope:hover {
+  background-color: var(--highlight-color);
+}
+*/
+:root #tags-content > div.scrollable > div > div > div.tag-info > div.tag-icon {
+  color: var(--border-color);
+  opacity: 0.5;
+}
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.menu {
+  color: #1a1a1a;
+}
+:root #notes-scrollable > div.note.ng-scope.selected > div.name.ng-binding {
+  color: var(--background-2);
+}
+:root #notes-scrollable > div.note.ng-scope.selected > div.note-preview.ng-scope > div.plain-preview.ng-binding {
+  color: var(--background-2) !important;
+}
+:root #notes-scrollable > div.note.ng-scope.selected > div.date.faded > span.ng-binding {
+  color: #e4e4e4;
+}
+:root #tags-content > div.scrollable > div > div.tags-title-section.section-title-bar > div > div {
+  color: var(--border-color);
+}
+:root #tags-content > div.tags-title-section.section-title-bar > div > div.sk-h3.title {
+  color: var(--border-color);
+}
+:root #editor-menu-bar > div > div.sk-app-bar-item.selected > div.sk-menu-panel.dropdown-menu.ng-scope > div:nth-child(1) > menu-row:nth-child(7) > div > div > div > div > div {
+  color: #ff0000;
+}
+:root .tags .tag > .tag-info > .tag-icon {
+	opacity: 0.4;
+}
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.tag-info > div.tag-icon {
+	opacity: 0.5;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.info {
+	opacity: 0.6;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-2 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-3 > div.sk-circle.small.danger {
+	opacity: 0.6;
+}
+:root div.tag-info.level-4 > div.sk-circle.small.warning {
+	opacity: 0.6;
+}
+:root div.tag-info.level-5 > div.sk-circle.small.neutral {
+	opacity: 0.6;
+}
+:root .sn-component .sk-circle {
+	border: none;
+}
+:root .tag-tree .self.selected:before {
+	background: none;
+	background-color: #272727;
+	opacity: 1;
+}
+:root .tag-tree .self:hover:not(.selected):before {
+	background: #272727;
+	/* Old browsers */
+	background: -moz-linear-gradient(left, #272727 0%, #1a1a1a 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #272727 0%, #1a1a1a 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #272727 0%, #1a1a1a 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bed4db', endColorstr='#cecbd8',GradientType=1 );
+	/* IE6-9 */
+}
+:root #tags-column .tag.selected {
+	background-color: #124420;
+}
+:root .tag-tree .self .tag-info .action-menu {
+	margin-left: auto;
+	margin-right: 0;
+}
+:root .tags .tag:hover:not(.selected), .tags .tag.selected {
+	background-color: #262626;
+	color: #e6e6e6;
+}
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.menu > a {
+	color: #6f8876;
+}
+:root .tags .tag>.menu {
+	opacity: 1;
+}
+:root .tag-tree .self .tag-info .title {
+	color: #ffffff;
+}
