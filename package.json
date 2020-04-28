@@ -1,6 +1,6 @@
 {
   "name": "sn-theme-evernote-light",
-  "version": "1.2",
+  "version": "1.3.0",
   "main": "dist/dist.css",
   "sn": {
     "main": "dist/dist.css"
