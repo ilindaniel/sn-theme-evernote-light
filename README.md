@@ -9,5 +9,5 @@ Standard Notes is not related to Evernote.
 Open "Extensions" in Standard Notes and click "Import Extension". Paste the following URL and press enter:
 
 ```
-https://listed.to/p/UpvxkloWI4
+https://listed.to/p/UVdm6iPd4P
 ```
