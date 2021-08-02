@@ -272,3 +272,15 @@
 #plus-editor > div.note-editor.note-frame.panel.panel-default.fullscreen > div.note-editing-area > div.note-editable > hr {
 	border-top: 1px solid #000000;
 }
+
+#notes-column .note.selected > .bottom-info,
+.notes .note.selected > .bottom-info {
+	color: var(--background-1);
+}
+
+:root #notes-column .note.selected .date.faded,
+:root #notes-column .note.selected .tags-string > .faded,
+:root #notes-column .note.selected .note-flag {
+	opacity: 0.5 !important;
+	color: var(--background-1) !important;
+}
